@@ -231,6 +231,8 @@ pub fn inspect(
 /// ```
 pub(all) type! SnapshotError String
 
+pub(all) type! BenchError String
+
 ///|
 test "panic error case of inspect" {
   let x : Int = 42
